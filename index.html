@@ -45,10 +45,16 @@
 			}
 
 			.mainimg {
-				height: 400px;
+				width: 711px;
 				padding: 5px;
 				border-radius: 5px;
 				border: 1px solid #ededed;
+			}
+
+			@media only screen and (max-width: 711px) {
+				.mainimg {
+					width: calc(100vw - 12px);
+				}
 			}
 
 			a {
